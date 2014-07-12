@@ -53,14 +53,14 @@ a {
 /*  GO FULL WIDTH On an iPhone */
 
 /* @media only screen and (max-width: 480px) { */
-@media only screen and (min-width: 560px) and (max-device-width: 1136px) {
+@media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
 }
 
 /* @media only screen and (max-width: 480px) { */
-@media only screen and (min-width: 560px) and (max-device-width: 1136px) {
+@media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
 	.span_2_of_2 {
 		width: 100%; 
 	}

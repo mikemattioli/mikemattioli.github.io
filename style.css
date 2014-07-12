@@ -51,15 +51,16 @@ a {
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
-    /* iPhone 5 only */
+
 /* @media only screen and (max-width: 480px) { */
+@media only screen and (max-width: 560px) {
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) { */
+@media only screen and (max-width: 560px) {
 	.span_2_of_2 {
 		width: 100%; 
 	}

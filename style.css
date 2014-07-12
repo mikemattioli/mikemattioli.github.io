@@ -65,6 +65,8 @@ a {
 		width: 100%; 
 	}
 	.span_1_of_2 {
+		border-top-style: dotted;
+		border-top-width: 1px;
 		width: 100%;
 	}
 }

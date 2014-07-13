@@ -8,6 +8,15 @@ a {
 	text-decoration: none;
 }
 
+.myname {
+	font-size: 1.8em;
+}
+
+.cv {
+	font-size:.8em;
+	padding-top:79px
+}
+
 
 /*  SECTIONS  */
 .section {
@@ -23,7 +32,7 @@ a {
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 10%;
+	margin: 1% 0 1% 8%;
 		margin-top:68px;
 
 }
@@ -53,10 +62,7 @@ a {
 	width: 45%;
 }
 
-.cv {
-	font-size:.8em;
-	padding-top:60px
-}
+
 
 
 /*  GO FULL WIDTH On an iPhone */

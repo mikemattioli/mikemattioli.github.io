@@ -8,6 +8,11 @@ a {
 	text-decoration: none;
 }
 
+.space {
+	margin-top: -1em; 
+	text-indent: 50px;
+}
+
 .myname {
 	font-size: 1.8em;
 }
@@ -16,7 +21,10 @@ a {
 	font-size:.8em;
 	padding-top:79px
 }
-
+.bio {
+	font-size:1.1em; 
+	margin-top:2.6em;">
+}
 
 /*  SECTIONS  */
 .section {

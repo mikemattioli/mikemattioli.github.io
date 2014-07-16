@@ -18,15 +18,17 @@ a {
 	font-size: 3em;
 }
 
+.bio {
+	font-size:1.2em; 
+	padding-top:9.3em;
+}
+
 .cv {
 	font-size:1em;
 	padding-top:9.3em;
 }
 
-.bio {
-	font-size:1.2em; 
-	padding-top:20px;
-}
+
 
 /*  SECTIONS  */
 .section {

@@ -129,6 +129,14 @@ a {
 
 	body { font-size:110%; } /* Increase the font size */
 
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+
+	.cv {
+		padding-top:15px
+	}
+
 	.section {
 		margin-left: 5%;
 		margin-right: 5%;

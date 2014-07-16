@@ -137,6 +137,10 @@ a {
 }
 
 @media only screen and (max-width: 900px) {
+	.myname {
+		font-size: 2em;
+	}
+
 	.span_2_of_2 {
 		width: 100%; 
 	}

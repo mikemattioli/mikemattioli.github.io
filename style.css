@@ -113,6 +113,12 @@ a {
 		padding-top:15px
 	}
 
+	.section {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+		
+
 }
 
 
@@ -138,6 +144,11 @@ a {
 	.cv {
 		padding-top:15px;
 		font-size:1.1em;
+	}
+
+	.section {
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 
 

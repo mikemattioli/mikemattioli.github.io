@@ -101,6 +101,11 @@ a {
 	
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
 
+
+	body { 
+		font-size:110%; 
+	} /* Decrease the font size */
+
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
@@ -119,8 +124,8 @@ a {
 	}
 
 	.section {
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}		
 }
 

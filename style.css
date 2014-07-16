@@ -1,3 +1,5 @@
+/*  Font Style, Sizes, and Padding  */
+
 body {
 	color: #2b3e42;
 	text-rendering: optimizeLegibility;
@@ -11,7 +13,6 @@ body {
 	font-feature-settings: "kern";
 }
 
-
 a {
 	color: #006ff6;
 	text-decoration: none;
@@ -23,6 +24,7 @@ a {
 }
 
 .myname {
+	font-family: "grad";
 	font-size: 2em;
 }
 
@@ -35,8 +37,6 @@ a {
 	font-size:.9em;
 	padding-top:5.8em;
 }
-
-
 
 
 

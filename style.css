@@ -50,8 +50,6 @@ a {
 	margin-right: 10%;
 }
 
-
-
 /*  COLUMN SETUP  */
 .col {
 	display: block;
@@ -61,7 +59,6 @@ a {
 
 }
 .col:first-child { margin-left: 0; }
-
 
 /*  GROUPING  */
 .group:before,
@@ -75,8 +72,7 @@ a {
 .group {
     zoom:1; /* For IE 6/7 */
 }
-                                               
-					
+                                               		
 /*  GRID OF TWO  */
 .span_2_of_2 {
 	width: 100%;
@@ -90,16 +86,11 @@ a {
 
 
 /*  GO FULL WIDTH On an iPhone */
-
-/* @media only screen and (max-width: 480px) { */
+	
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
-}
-
-/* @media only screen and (max-width: 480px) { */
-@media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
 
 	.myname {
 		font-size: 2em;
@@ -121,9 +112,7 @@ a {
 	.section {
 		margin-left: 15%;
 		margin-right: 15%;
-	}
-		
-
+	}		
 }
 
 
@@ -134,9 +123,7 @@ a {
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
-}
 
-@media only screen and (max-width: 900px) {
 	.myname {
 		font-size: 2em;
 	}

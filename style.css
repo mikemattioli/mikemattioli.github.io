@@ -36,11 +36,13 @@ a {
 }
 
 .subtitle1 {
+	font-size:125%;
 	font-family: "adobe-caslon-pro";
 	font-weight: 700;
 }
 
 .subtitles {
+	font-size:125%;
 	font-family: "adobe-caslon-pro";
 	font-weight: 700;
 	margin-top: 2em;

@@ -99,10 +99,6 @@ a {
 		margin: 1% 0 1% 0%;
 	}
 
-	.myname {
-		font-size: 2em;
-	}
-
 	.span_2_of_2 {
 		width: 100%; 
 	}
@@ -129,10 +125,6 @@ a {
 @media only screen and (max-width: 900px) {
 	.col { 
 		margin: 1% 0 1% 0%;
-	}
-
-	.myname {
-		font-size: 2em;
 	}
 
 	.span_2_of_2 {

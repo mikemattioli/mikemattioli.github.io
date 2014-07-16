@@ -38,12 +38,14 @@ a {
 }
 
 .subtitle1 {
+	font-size:1.222em;
 	font-weight: 700;
 }
 
 .subtitles {
+	font-size:1.222em;
 	font-weight: 700;
-	margin-top: 1em;
+	margin-top: 2em;
 }
 
 

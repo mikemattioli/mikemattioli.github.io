@@ -1,6 +1,7 @@
 body {
-	font-family: Georgia;
 	color: #2b3e42;
+	text-rendering: optimizeLegibility;
+	font-family: "adobe-garamond-pro",Georgia,serif;
 }
 
 a {

@@ -115,7 +115,7 @@ a {
 	}
 
 	.cv {
-		padding-top:15px
+		padding-top:15px;
 	}
 
 	.section {
@@ -129,8 +129,7 @@ a {
 
 	body { 
 		font-size:90%; 
-	} /* Increase the font size */
-
+	} /* Decrease the font size */
 
 	.section {
 		margin-left: 5%;

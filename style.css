@@ -37,7 +37,10 @@ a {
 	font-size:.9em;
 	padding-top:5.8em;
 }
-
+.subtitles {
+	font-family: "grad";
+	font-weight: bold;
+}
 
 
 

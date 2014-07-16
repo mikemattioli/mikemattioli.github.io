@@ -2,6 +2,7 @@ body {
 	color: #2b3e42;
 	text-rendering: optimizeLegibility;
 	font-family: "adobe-garamond-pro",Georgia,serif;
+	font-feature-settings: "smcp" on;
 }
 
 a {
@@ -27,6 +28,10 @@ a {
 	font-size:.9em;
 	padding-top:9.8em;
 }
+
+
+
+
 
 
 
@@ -124,8 +129,8 @@ a {
 	}
 
 	.cv {
-	padding-top:15px;
-	font-size:1.1em;
+		padding-top:15px;
+		font-size:1.1em;
 	}
 
 

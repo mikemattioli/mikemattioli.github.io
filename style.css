@@ -3,7 +3,13 @@ body {
 	text-rendering: optimizeLegibility;
 	font-family: "adobe-garamond-pro",Georgia,serif;
 	font-feature-settings: "smcp" on;
+	font-feature-settings: 'liga' 1;
+	-webkit-font-feature-settings: 'liga' 1;
+-o-font-feature-settings: 'liga' 1;
+-moz-font-feature-settings: 'liga' 1;
+-ms-font-feature-settings: 'liga' 1;
 }
+
 
 a {
 	color: #006ff6;

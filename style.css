@@ -23,7 +23,7 @@ a {
 
 .myname {
 	font-size: 2em;
-		font-weight: 700;
+	font-weight: 700;
 
 }
 
@@ -38,12 +38,10 @@ a {
 }
 
 .subtitle1 {
-	font-size:1.222em;
 	font-weight: 700;
 }
 
 .subtitles {
-	font-size:1.222em;
 	font-weight: 700;
 	margin-top: 2em;
 }

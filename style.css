@@ -94,9 +94,13 @@ a {
 
 
 
+
+
+
 /*  GO FULL WIDTH On an iPhone */
 	
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
+
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
@@ -115,16 +119,27 @@ a {
 	}
 
 	.section {
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}		
 }
 
 
 
-/*  GO FULL WIDTH less than 900 pixels */
+
+
+/*  Responsive Breakpoints for Computer Displays */
+
+@media screen and (min-width: 1200px) {
+	body { font-size:110%; } /* Increase the font size */
+}
+
+@media screen and (max-width: 670px) {
+	body { font-size:90%; } /* Decrease the font size */
+}
 
 @media only screen and (max-width: 900px) {
+	
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
@@ -144,8 +159,8 @@ a {
 	}
 
 	.section {
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 
 

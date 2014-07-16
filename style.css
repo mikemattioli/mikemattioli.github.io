@@ -24,12 +24,12 @@ a {
 }
 
 .myname {
-	font-family: "grad";
+	font-family: "abril-fatface";
 	font-size: 2em;
 }
 
 .bio {
-	font-size:1.1em; 
+	font-size:1.1em;
 	padding-top:.7em;
 }
 
@@ -39,12 +39,12 @@ a {
 }
 
 .subtitle1 {
-	font-family: "grad";
+	font-family: "abril-fatface";
 	font-weight: bold;
 }
 
 .subtitles {
-	font-family: "grad";
+	font-family: "abril-fatface";
 	font-weight: bold;
 	margin-top: 2em;
 }

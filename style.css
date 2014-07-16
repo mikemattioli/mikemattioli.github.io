@@ -125,6 +125,35 @@ a {
 }
 
 
+@media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: landscape) {
+
+	body { font-size:110%; } /* Increase the font size */
+
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		border-top-style: dotted;
+		border-top-width: 1px;
+		width: 100%;
+	}
+
+	.cv {
+		padding-top:15px
+	}
+
+	.section {
+		margin-left: 5%;
+		margin-right: 5%;
+	}		
+}
+
+
+
 
 
 

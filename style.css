@@ -98,7 +98,7 @@ a {
 
 
 
-/*  GO FULL WIDTH On an iPad in Portrait Mode */
+/*  A special full-width layout for iPad in Portrait Mode */
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
 
 	body { 
@@ -131,6 +131,7 @@ a {
 	}		
 }
 
+/*  A special two-column layout for iPad in Portrait Mode */
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: landscape) {
 
 	body { 
@@ -153,6 +154,15 @@ a {
 
 	body { 
 		font-size:120%; 
+	}
+
+}
+
+/*  Responsive Breakpoints for Computer Displays */
+@media only screen and (max-width: 1000px) {
+
+	body { 
+		font-size:90%; 
 	}
 
 }
@@ -205,7 +215,7 @@ a {
 /* Decrease the font size below this pixel count */
 @media screen and (max-width: 670px) {
 	body { 
-		font-size:90%; 
+		font-size:80%; 
 	}
 }
 

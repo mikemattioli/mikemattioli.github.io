@@ -153,13 +153,6 @@ a {
 
 
 
-/* increase the font size for large displays*/
-@media screen and (min-width: 1200px) {
-	body { 
-		font-size:110%; 
-	}
-}
-
 
 /* snap everything into one column at this point*/
 @media only screen and (max-width: 800px) {

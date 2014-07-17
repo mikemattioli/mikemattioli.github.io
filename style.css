@@ -35,6 +35,7 @@ a {
 
 .cv {
 	padding-top: 6.2em;
+		line-height: 1.618;
 }
 
 .cv a {
@@ -89,10 +90,6 @@ a {
 .span_1_of_2 {
 	width: 45%;
 }
-
-
-
-
 
 
 

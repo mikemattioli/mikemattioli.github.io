@@ -110,45 +110,6 @@ a {
 
 
 
-/*  A special full-width layout for iPad in Portrait Mode */
-/* @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) { */
-
-
-@media only screen and (orientation: portrait) {
-
-
-	body { 
-		font-size:200%; 
-	}
-
-	.col { 
-		margin: 1% 0 1% 0%;
-	}
-
-	.span_2_of_2 {
-		width: 100%; 
-	}
-
-	.span_1_of_2 {
-		border-top-style: dotted;
-		border-top-width: 1px;
-		width: 100%;
-	}
-
-	.bio {
-		padding-bottom:2em;
-	}
-
-	.cv {
-		padding-top:2em;
-	}
-
-	.section {
-		margin-left: 5%;
-		margin-right: 5%;
-	}		
-
-}
 
 /*  A special two-column layout for iPad in Portrait Mode */
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: landscape) {

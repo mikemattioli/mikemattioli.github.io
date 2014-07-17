@@ -35,7 +35,7 @@ a {
 
 .cv {
 	padding-top: 6.2em;
-		line-height: 1.618;
+	line-height: 1.618;
 }
 
 .cv a {
@@ -49,7 +49,6 @@ a {
 
 .subtitles {
 	font-weight:600;
-	margin-top:2em;
 }
 
 /*  SECTIONS  */

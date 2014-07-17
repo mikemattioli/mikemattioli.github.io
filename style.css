@@ -114,7 +114,7 @@ a {
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
 
 body {
-		font-size:5em;
+		font-size:42px;
 	}
 	
 	.col { 

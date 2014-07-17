@@ -17,20 +17,21 @@ a {
 	text-decoration: none;
 }
 
-.space { 
-	text-indent: 2em;
-}
 
 .myname {
 	font-size: 2.618em;
 	font-weight: normal;
-	/* font-weight: 400; */
 	font-family: "adobe-caslon-pro",Georgia,serif;
+	margin-bottom: 0px;
 }
 
 .bio {
 	font-size:1em;
 	padding-top:.09em;
+}
+
+.space { 
+	text-indent: 2em;
 }
 
 .cv {

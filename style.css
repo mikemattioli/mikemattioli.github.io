@@ -47,11 +47,13 @@ a {
 .subtitle1 {
 	font-size: 1em;
 	font-weight:600;
+	line-height: 1.618;
 }
 
 .subtitles {
 	font-size: 1em;
 	font-weight:600;
+	line-height: 1.618;
 }
 
 /*  SECTIONS  */

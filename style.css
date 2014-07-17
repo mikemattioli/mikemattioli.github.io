@@ -25,6 +25,7 @@ a {
 .bio {
 	font-size:1em;
 	padding-top:1em;
+	line-height: 1.618;
 }
 
 .space {

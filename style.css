@@ -98,9 +98,8 @@ a {
 
 
 
-/*  GO FULL WIDTH On an iPad in Portrait Mode
+/*  GO FULL WIDTH On an iPad in Portrait Mode */
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
-
 
 	body { 
 		font-size:200%; 
@@ -127,7 +126,7 @@ a {
 		margin-right: 5%;
 	}		
 }
-*/
+
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: landscape) {
 
 	body { 

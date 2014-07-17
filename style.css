@@ -3,7 +3,8 @@
 body {
 	color: #333;
 	text-rendering: optimizeLegibility;
-	font-family: "adobe-garamond-pro",Georgia,serif;
+	/*font-family: "adobe-garamond-pro",Georgia,serif;*/
+	font-family: "skolar",Georgia,serif;
 	font-feature-settings: "smcp" on;
 	font-feature-settings: 'liga' 1;
 	font-feature-settings: "kern";
@@ -98,7 +99,6 @@ a {
 
 
 /*  GO FULL WIDTH On an iPad in Portrait Mode */
-	
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
 
 
@@ -130,12 +130,11 @@ a {
 }
 
 /*  Two Columns Optimized for iPad in Landscape mode */
-
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: landscape) {
 
 	body { 
 		font-size:90%; 
-	} /* Decrease the font size */
+	}
 
 	.section {
 		margin-left: 9%;
@@ -150,10 +149,12 @@ a {
 
 /*  Responsive Breakpoints for Computer Displays */
 
-@media screen and (min-width: 1200px) {
-	body { font-size:110%; } /* Increase the font size */
-}
 
+
+/* increase the font size for large displays*/
+@media screen and (min-width: 1200px) {
+	body { font-size:110%; }
+}
 
 
 /* snap everything into one column at this point*/
@@ -185,8 +186,9 @@ a {
 
 }
 
+/* Decrease the font size below this pixel count */
 @media screen and (max-width: 670px) {
-	body { font-size:90%; } /* Decrease the font size */
+	body { font-size:90%; }
 }
 
 

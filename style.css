@@ -24,8 +24,8 @@ a {
 
 .myname {
 	font-size: 2em;
-	font-weight: 400;
-
+	/* font-weight: 400; */
+	font-family: "adobe-caslon-pro",Georgia,serif;
 }
 
 .bio {
@@ -45,13 +45,15 @@ a {
 
 .subtitle1 {
 	font-size:1.222em;
-	font-weight: 400;
+	/* font-weight: 400; */
+	font-family: "adobe-caslon-pro",Georgia,serif;
 }
 
 .subtitles {
 	font-size:1.222em;
-	font-weight: 400;
+	/* font-weight: 400; */
 	margin-top: 2em;
+	font-family: "adobe-caslon-pro",Georgia,serif;
 }
 
 

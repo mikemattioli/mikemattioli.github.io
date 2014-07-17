@@ -185,10 +185,12 @@ a {
 
 	.subtitle1 {
 		font-size:1em;
+		font-weight:400;
 	}
 
 	.subtitles {
 		font-size:1em;
+		font-weight:400;
 	}
 
 	.cv {

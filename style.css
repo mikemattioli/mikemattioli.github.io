@@ -97,7 +97,7 @@ a {
 
 
 
-/*  GO FULL WIDTH On an iPhone */
+/*  GO FULL WIDTH On an iPad in Portrait Mode */
 	
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
 
@@ -129,6 +129,7 @@ a {
 	}		
 }
 
+/*  Two Columns Optimized for iPad in Landscape mode */
 
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: landscape) {
 
@@ -153,11 +154,10 @@ a {
 	body { font-size:110%; } /* Increase the font size */
 }
 
-@media screen and (max-width: 670px) {
-	body { font-size:90%; } /* Decrease the font size */
-}
 
-@media only screen and (max-width: 900px) {
+
+/* snap everything into one column at this point*/
+@media only screen and (max-width: 800px) {
 	
 	.col { 
 		margin: 1% 0 1% 0%;
@@ -184,6 +184,12 @@ a {
 
 
 }
+
+@media screen and (max-width: 670px) {
+	body { font-size:90%; } /* Decrease the font size */
+}
+
+
 
 
 

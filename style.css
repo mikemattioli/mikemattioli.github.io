@@ -24,6 +24,7 @@ a {
 
 .myname {
 	font-size: 2em;
+	font-weight: normal;
 	/* font-weight: 400; */
 	font-family: "adobe-caslon-pro",Georgia,serif;
 }
@@ -35,7 +36,7 @@ a {
 
 .cv {
 	font-size:.9em;
-	padding-top:6.5em;
+	padding-top:7.5em;
 }
 
 .cv a {
@@ -45,12 +46,14 @@ a {
 
 .subtitle1 {
 	font-size:1.222em;
+	font-weight: normal;
 	/* font-weight: 400; */
 	font-family: "adobe-caslon-pro",Georgia,serif;
 }
 
 .subtitles {
 	font-size:1.222em;
+	font-weight: normal;
 	/* font-weight: 400; */
 	margin-top: 2em;
 	font-family: "adobe-caslon-pro",Georgia,serif;

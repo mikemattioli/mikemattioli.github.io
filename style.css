@@ -29,11 +29,12 @@ a {
 }
 
 .space {
-	text-indent: 1.618em;
 	margin-bottom: -1em;
+	text-indent: 1.618em;
 }
 
 .cv {
+	font-size: 1em;
 	padding-top: 6.1em;
 	line-height: 1.618;
 }
@@ -44,10 +45,12 @@ a {
 }
 
 .subtitle1 {
+	font-size: 1em;
 	font-weight:600;
 }
 
 .subtitles {
+	font-size: 1em;
 	font-weight:600;
 }
 

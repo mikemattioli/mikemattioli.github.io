@@ -38,6 +38,11 @@ a {
 	padding-top:6.4em;
 }
 
+.cv a {
+	color: #333;
+	text-decoration: none;
+}
+
 .subtitle1 {
 	font-size:1.222em;
 	font-weight: 400;

@@ -10,6 +10,7 @@ body {
 	font-feature-settings: "kern";
 	font-size:95%;
 	font-weight:300;
+	line-height: 1.5em;
 }
 
 a {

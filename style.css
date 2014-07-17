@@ -168,7 +168,7 @@ a {
 }
 
 /* snap everything into one column at this point*/
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
 	body {
 		font-size:100%;
 	}

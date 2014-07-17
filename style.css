@@ -79,12 +79,14 @@ a {
 }
 
 /*  COLUMN SETUP  */
+
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 8%;
+	margin: 1% 0 1% 4.236em;
 
 }
+
 .col:first-child { margin-left: 0; }
 
 /*  GROUPING  */

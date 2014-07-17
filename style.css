@@ -117,6 +117,10 @@ a {
 		width: 100%;
 	}
 
+	.bio {
+		padding-bottom:2em;
+	}
+
 	.cv {
 		padding-top:2em;
 	}

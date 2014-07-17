@@ -3,7 +3,6 @@
 body {
 	color: #333;
 	text-rendering: optimizeLegibility;
-	/*font-family: "adobe-garamond-pro",Georgia,serif;*/
 	font-family: "skolar",Georgia,serif;
 	font-feature-settings: "smcp" on;
 	font-feature-settings: 'liga' 1;
@@ -149,13 +148,18 @@ a {
 
 
 /*  Responsive Breakpoints for Computer Displays */
+@media only screen and (min-width: 1200px) {
 
+	body { 
+		font-size:115%; 
+	}
 
+}
 
 
 /* snap everything into one column at this point*/
-@media only screen and (max-width: 800px) {
-	
+@media only screen and (max-width: 900px) {
+
 	.col { 
 		margin: 1% 0 1% 0%;
 	}

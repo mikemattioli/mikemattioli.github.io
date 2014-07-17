@@ -44,18 +44,22 @@ a {
 	text-decoration: none;
 }
 
+.cv p {
+	margin-bottom: -1em;
+}
+
 .subtitle1 {
 	font-size: 1em;
 	font-weight:600;
 	line-height: 1.618;
-		margin-bottom: -1em;
+	margin-bottom: -1em;
 }
 
 .subtitles {
 	font-size: 1em;
 	font-weight:600;
 	line-height: 1.618;
-		margin-bottom: -1em;
+	margin-bottom: -1em;
 }
 
 /*  SECTIONS  */

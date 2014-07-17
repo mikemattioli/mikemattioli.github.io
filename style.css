@@ -127,7 +127,7 @@ a {
 		margin-right: 5%;
 	}		
 }
-
+*/
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: landscape) {
 
 	body { 
@@ -140,7 +140,7 @@ a {
 	}		
 }
 
-*/
+
 
 
 
@@ -153,7 +153,6 @@ a {
 	}
 
 }
-
 
 /* snap everything into one column at this point*/
 @media only screen and (max-width: 900px) {

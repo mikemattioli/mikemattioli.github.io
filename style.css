@@ -33,8 +33,7 @@ a {
 }
 
 .cv {
-	font-size:.618em;
-	padding-top:9.8em;
+	padding-top:5.8em;
 }
 
 .cv a {
@@ -43,13 +42,11 @@ a {
 }
 
 .subtitle1 {
-	font-size:1.618em;
-	font-weight: normal;
+	font-weight:400;
 }
 
 .subtitles {
-	font-size:1.618em;
-	font-weight: normal;
+	font-weight:400;
 	margin-top:2em;
 }
 

@@ -102,14 +102,13 @@ a {
 
 
 
-/*  GO FULL WIDTH On an iPad in Portrait Mode */
+/*  GO FULL WIDTH On an iPad in Portrait Mode
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: portrait) {
 
 
 	body { 
 		font-size:200%; 
-	} /* Decrease the font size */
-
+	}
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
@@ -133,7 +132,6 @@ a {
 	}		
 }
 
-/*  Two Columns Optimized for iPad in Landscape mode */
 @media only screen and (min-width: 560px) and (max-device-width: 1136px) and (orientation: landscape) {
 
 	body { 
@@ -146,7 +144,7 @@ a {
 	}		
 }
 
-
+*/
 
 
 
@@ -157,7 +155,9 @@ a {
 
 /* increase the font size for large displays*/
 @media screen and (min-width: 1200px) {
-	body { font-size:110%; }
+	body { 
+		font-size:110%; 
+	}
 }
 
 
@@ -177,9 +177,15 @@ a {
 		width: 100%;
 	}
 
+	.bio {
+		font-size:1em;
+		padding-top:.09em;
+		padding-bottom:.1em;
+	}
+
 	.cv {
-		padding-top:15px;
-		font-size:1.1em;
+		padding-top:1em;
+		font-size:1em;
 	}
 
 	.section {
@@ -192,7 +198,9 @@ a {
 
 /* Decrease the font size below this pixel count */
 @media screen and (max-width: 670px) {
-	body { font-size:90%; }
+	body { 
+		font-size:90%; 
+	}
 }
 
 

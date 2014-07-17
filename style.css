@@ -199,35 +199,42 @@ a {
 	}
 	
 	.span_1_of_2 {
-		border-top-style: dotted;
-		border-top-width: 1px;
 		width: 100%;
 	}
 	
 	.bio {
 		font-size:1em;
-		padding-top:.09em;
-		padding-bottom:1em;
+		padding-bottom:1.618em;
 	}
 
 	.subtitle1 {
 		font-size:1em;
-		font-weight:400;
 	}
 
 	.subtitles {
 		font-size:1em;
-		font-weight:400;
 	}
 
 	.cv {
-		padding-top:1em;
+		padding-top:1.618em;
 		font-size:1em;
+		border-top-style: dotted;
+		border-top-width: 1px;
 	}
 
 	.section {
 		margin-left: 10%;
 		margin-right: 10%;
+	}
+
+	.myname {
+		clear: both;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-weight:400;
+		font-size: 1.618em;
+		margin-top: 3em;
+		margin-bottom: 1em;
 	}
 
 }

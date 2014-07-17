@@ -45,6 +45,7 @@ a {
 }
 
 .subtitle1 {
+	font-weight:normal;
 	font-size: 1em;
 	line-height: 1.618;
 	margin-bottom: 1.618em;

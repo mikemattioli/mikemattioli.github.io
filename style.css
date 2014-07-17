@@ -17,8 +17,7 @@ a {
 	text-decoration: none;
 }
 
-.space {
-	margin-top: -1.618em; 
+.space { 
 	text-indent: 2em;
 }
 
@@ -32,7 +31,6 @@ a {
 .bio {
 	font-size:1em;
 	padding-top:.09em;
-
 }
 
 .cv {

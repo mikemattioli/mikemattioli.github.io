@@ -3,7 +3,7 @@
 body {
 	color: #333;
 	text-rendering: optimizeLegibility;
-	font-family: "skolar",Georgia,serif;
+	font-family: "skolar","Times New Roman",serif;
 	font-feature-settings: "smcp" on;
 	font-feature-settings: 'liga' 1;
 	font-feature-settings: "kern";
@@ -209,7 +209,7 @@ abbr {
 @media screen and (max-device-aspect-ratio: 1/1) and (orientation : portrait) {
 
 body {
-		font-size:200%;
+		font-size:225%;
 	}
 	
 	.col { 

@@ -74,6 +74,8 @@ abbr {
 	font-weight:400;
 	font-size: 1.618em;
 	margin-top: 2.618em;
+	margin-bottom:0em;
+	line-height:1.618em;
 }
 
 .myname p {

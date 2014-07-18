@@ -16,6 +16,10 @@ a {
 	text-decoration: none;
 }
 
+abbr {
+  letter-spacing: 0.1em;
+}
+
 .bio {
 	font-size: 1em;
 	line-height: 1.618em;

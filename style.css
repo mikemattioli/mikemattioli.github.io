@@ -65,10 +65,13 @@ a {
 	clear: both;
 	margin-left: 14%;
 	margin-right: 12%;
-	font-weight:400;
+	font-weight:600;
 	font-size: 1.618em;
 	margin-top: 2.618em;
 	margin-bottom: 0.618em;
+}
+
+.myname h1 {
 }
 
 .section {
@@ -191,19 +194,13 @@ a {
 	}
 }
 
-
 /* iPad in portrait mode */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
 
-
-
 }
-
-
 
 /* iPhone 5 in portrait */
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
-
 body {
 		font-size:400%;
 	}

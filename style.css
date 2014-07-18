@@ -45,6 +45,8 @@ a {
 }
 
 .subtitle1 {
+		font-family:"rooney-web",Georgia,serif;;
+
 	font-weight:600;
 	font-size: 1em;
 	line-height: 1.618em;
@@ -52,6 +54,8 @@ a {
 }
 
 .subtitles {
+		font-family:"rooney-web",Georgia,serif;;
+
 	font-weight:600;
 	font-size: 1em;
 	line-height: 1.618em;

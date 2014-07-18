@@ -69,7 +69,8 @@ a {
 	font-weight:400;
 	font-size: 1.618em;
 	margin-top: 2.618em;
-	margin-bottom: 0.618em;
+	/*margin-bottom: 0.618em;*/
+	margin-bottom: 0em;
 }
 
 .myname h1 {

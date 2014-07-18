@@ -78,7 +78,7 @@ abbr {
 }
 
 .myname p {
-	margin-bottom:0em;
+	margin-bottom:-1em;
 }
 
 .myname h1 {

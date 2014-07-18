@@ -40,7 +40,6 @@ a {
 }
 
 .cv a {
-	/*color: #333;*/
 	text-decoration: none;
 }
 
@@ -71,7 +70,6 @@ a {
 	font-weight:400;
 	font-size: 1.618em;
 	margin-top: 2.618em;
-	/*margin-bottom: 0.618em;*/
 	margin-bottom: -1em;
 }
 
@@ -95,7 +93,8 @@ a {
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 8.5%;
+	/*margin: 1% 0 1% 8.5%;*/
+	margin: 1.618em 0 0 4.236em;
 }
 
 .col:first-child { margin-left: 0; }

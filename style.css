@@ -74,11 +74,11 @@ abbr {
 	font-weight:400;
 	font-size: 1.618em;
 	margin-top: 2.618em;
-	margin-bottom: -1em;
 }
 
 .myname p {
 	margin-bottom:-1em;
+	line-height:1.618em;
 }
 
 .section {

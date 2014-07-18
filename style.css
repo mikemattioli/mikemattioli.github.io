@@ -62,6 +62,7 @@ a {
 /*  SECTIONS  */
 
 .myname {
+	font-family:"rooney-web",Georgia,serif;;
 	clear: both;
 	margin-left: 14%;
 	margin-right: 12%;

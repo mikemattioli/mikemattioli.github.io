@@ -4,8 +4,7 @@ body {
 	color: #333;
 	text-rendering: optimizeLegibility;
 	font-family: "skolar","Times New Roman",serif;
-	font-feature-settings: "smcp" on;
-	font-feature-settings: 'liga' 1;
+	font-feature-settings:"liga", "dlig";
 	font-feature-settings: "kern";
 	font-size:16px;
 	font-weight:300;
@@ -86,11 +85,6 @@ abbr {
 .myname p {
 	margin-bottom:-1em;
 	line-height:1.618em;
-}
-
-.char1 {
-
-
 }
 
 .section {

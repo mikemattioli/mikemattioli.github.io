@@ -13,6 +13,7 @@ body {
   	-ms-font-feature-settings:"liga", "dlig"; 
   	-o-font-feature-settings:"liga", "dlig"; 
   	-webkit-font-feature-settings:"liga", "dlig"; 
+  	-webkit-font-smoothing: antialiased;
   	font-feature-settings:"liga", "dlig";
 }
 

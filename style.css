@@ -59,6 +59,8 @@ abbr {
 	font-size: 1em;
 	line-height: 1.618em;
 	margin-bottom: 1.618em;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
 }
 
 .subtitles {
@@ -68,9 +70,8 @@ abbr {
 	line-height: 1.618em;
 	margin-bottom: 1.618em;
 	margin-top: 1.618em;
-			border-top-style: solid;
-		border-top-width: 1px;
-
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
 }
 
 /*  SECTIONS  */

@@ -54,7 +54,7 @@ abbr {
 }
 
 .subtitle1 {
-	font-family:"adobe-caslon-pro",Georgia,serif;;
+	/*font-family:"adobe-caslon-pro",Georgia,serif;;*/
 	font-weight:600;
 	font-size: 1em;
 	line-height: 1.618em;
@@ -62,7 +62,7 @@ abbr {
 }
 
 .subtitles {
-	font-family:"adobe-caslon-pro",Georgia,serif;;
+	/*font-family:"adobe-caslon-pro",Georgia,serif;;*/
 	font-weight:600;
 	font-size: 1em;
 	line-height: 1.618em;

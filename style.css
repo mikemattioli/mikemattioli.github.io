@@ -39,7 +39,7 @@ abbr {
 }
 
 .cv {
-	font-size: 1em;
+	font-size: .5em;
 	line-height: 1.618em;
 }
 
@@ -56,7 +56,7 @@ abbr {
 .subtitle1 {
 	/*font-family:"adobe-caslon-pro",Georgia,serif;;*/
 	font-weight:600;
-	font-size: .5em;
+	font-size: 1em;
 	line-height: 1.618em;
 	margin-bottom: 1.618em;
 }
@@ -64,7 +64,7 @@ abbr {
 .subtitles {
 	/*font-family:"adobe-caslon-pro",Georgia,serif;;*/
 	font-weight:600;
-	font-size: .5em;
+	font-size: 1em;
 	line-height: 1.618em;
 	margin-bottom: 1.618em;
 	margin-top: 1.618em;

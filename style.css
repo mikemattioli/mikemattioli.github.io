@@ -23,7 +23,12 @@ a {
 }
 
 abbr {
-  letter-spacing: 0.1em;
+	letter-spacing: 0.056em;
+	-moz-font-feature-settings: "smcp";
+	-ms-font-feature-settings: "smcp";
+	-webkit-font-feature-settings: "smcp";
+	-o-font-feature-settings: "smcp";
+	font-feature-settings: "smcp";
 }
 
 .bio {

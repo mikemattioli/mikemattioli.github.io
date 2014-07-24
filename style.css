@@ -22,15 +22,17 @@ a {
 	text-decoration: none;
 }
 
-abbr {
-	letter-spacing: 0.056em;
-	font-family: "Times New Roman",serif;
-	-moz-font-feature-settings: "smcp";
-	-ms-font-feature-settings: "smcp";
-	-webkit-font-feature-settings: "smcp";
-	-o-font-feature-settings: "smcp";
-	font-feature-settings: "smcp";
+.myname {
+	font-family:"adobe-caslon-pro",Georgia,serif;;
+	clear: both;
+	margin-left: 13.5%;
+	margin-right: 7%;
+	font-weight:400;
+	font-size: 2.353em;
+	margin-top: 2.618em;
+	margin-bottom: 0.618em;
 }
+
 
 .bio {
 	font-size: 1em;
@@ -39,9 +41,38 @@ abbr {
 
 .bio p {
 	text-indent: 0em;
-	line-height: 1.618em;
 	margin-top: 0em;
 	margin-bottom: 0em;
+}
+
+.bio img {
+	width: 100%;
+	border: 0px;
+}
+
+.caption {
+	width:100%;
+	font-size:70%;
+	font-style: italic;
+	visibility:visible;
+}
+
+.first-line {
+	padding-top:1.618em;
+}
+
+.indent {
+	text-indent: 1.618em;
+}
+
+.abbr {
+	letter-spacing: 0.056em;
+	font-family: "Times New Roman",serif;
+	-moz-font-feature-settings: "smcp";
+	-ms-font-feature-settings: "smcp";
+	-webkit-font-feature-settings: "smcp";
+	-o-font-feature-settings: "smcp";
+	font-feature-settings: "smcp";
 }
 
 .cv {
@@ -61,10 +92,10 @@ abbr {
 
 .subtitle1 {
 	/*font-family:"adobe-caslon-pro",Georgia,serif;;*/
-	font-weight:600;
+	font-weight: 600;
 	font-size: 1em;
 	line-height: 1.618em;
-	margin-bottom: 1.618em;
+	margin-bottom: 1.618em;	/*margin-top: 1.353em;	*/
 }
 
 .subtitles {
@@ -79,22 +110,6 @@ abbr {
 }
 
 /*  SECTIONS  */
-
-.myname {
-	font-family:"adobe-caslon-pro",Georgia,serif;;
-	clear: both;
-	margin-left: 13.5%;
-	margin-right: 7%;
-	font-weight:400;
-	font-size: 1.618em;
-	margin-top: 4.236em;
-	margin-bottom:0em;
-}
-
-.myname p {
-	margin-bottom:-1em;
-	line-height:1.618em;
-}
 
 .section {
 	clear: both;
@@ -149,14 +164,14 @@ abbr {
 }
 
 /*  Responsive Breakpoints for Computer Displays */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1090px) {
 	body { 
 		font-size:90%; 
 	}
 }
 
 /* snap everything into one column at this point*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 875px) {
 	
 	body {
 		font-size:100%;
@@ -177,6 +192,19 @@ abbr {
 	.bio {
 		font-size:1em;
 		padding-bottom:1.618em;
+		width:100%;
+	}
+	
+	.bio img {
+		width: 100%
+		height: auto;
+		border: 0px;
+		padding-top: 0px;
+		padding-right:1.618em;
+	}	
+
+	p.first-line {
+		padding-top:1.618em;	
 	}
 
 	.subtitle1 {
@@ -194,6 +222,10 @@ abbr {
 		border-top-width: 1px;
 	}
 
+	.caption {
+		display:none;
+	}
+	
 	.section {
 		margin-left: 10%;
 		margin-right: 10%;
@@ -206,6 +238,11 @@ abbr {
 		font-size: 1.618em;
 		margin-top: 2.618em;
 		margin-bottom: 1em;
+	}
+
+	.first-line {
+		padding-top:0em;
+		margin-top:0em;
 	}
 
 }
@@ -222,8 +259,12 @@ abbr {
 
 @media screen and (max-device-aspect-ratio: 1/1) and (orientation : portrait) {
 
-body {
+	body {
 		font-size:275%;
+	}
+	
+	.caption {
+		display:none;
 	}
 	
 	.col { 
@@ -274,4 +315,3 @@ body {
 	}
 
 }
-

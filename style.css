@@ -126,7 +126,7 @@ a {
 	display: block;
 	float:left;
 	/*margin: 1% 0 1% 8.5%;*/
-	margin: .618em 0 0 2.618em;
+	margin: .618em 0 0 3.808em;
 }
 
 .col:first-child { margin-left: 0; }

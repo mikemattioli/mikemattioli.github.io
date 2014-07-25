@@ -64,6 +64,15 @@ a {
 	visibility:visible;
 }
 
+.footer {
+	width:100%;
+	font-size:80%;
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
 .first-line {
 	padding-top:1.618em;
 }

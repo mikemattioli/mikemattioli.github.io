@@ -66,6 +66,7 @@ a {
 }
 
 .abbr {
+	font-family: "Times New Roman",serif;
 	font-variant:small-caps;
 	letter-spacing:0em;
 	-moz-font-feature-settings: "smcp";

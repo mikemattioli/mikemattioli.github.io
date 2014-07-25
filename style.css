@@ -109,6 +109,10 @@ a {
 	border-top-width: 1px;
 }
 
+.emphasis {
+	font-weight: 600;	
+}
+
 /*  SECTIONS  */
 
 .section {

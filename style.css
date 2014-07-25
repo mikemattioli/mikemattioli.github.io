@@ -67,7 +67,7 @@ a {
 
 .abbr {
 	letter-spacing: 0.056em;
-	font-family: "Times New Roman",serif;
+	/*font-family: "Times New Roman",serif;*/
 	-moz-font-feature-settings: "smcp";
 	-ms-font-feature-settings: "smcp";
 	-webkit-font-feature-settings: "smcp";

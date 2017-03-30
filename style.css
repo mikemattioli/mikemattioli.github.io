@@ -33,6 +33,10 @@ a {
 	display:table-cell;
 }
 
+.book-cover img {
+	height:4em;
+}
+
 .book-description {
 	vertical-align:top;
 	display:table-cell;
@@ -335,6 +339,10 @@ a {
 	
 	.book-description {
 		width: 100%;	
+	}
+	
+	.book-cover img {
+		margin-right:0px; 
 	}
 	
 	.cv {

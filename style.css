@@ -29,6 +29,7 @@ a {
 
 .book-cover {
 	vertical-align:top;
+	margin-right:1em;
 	display:table-cell;
 }
 

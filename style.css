@@ -35,6 +35,7 @@ a {
 
 .book-cover img {
 	height:8em;
+		margin-right:10px;
 }
 
 .book-description {

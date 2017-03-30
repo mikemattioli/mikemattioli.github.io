@@ -27,6 +27,15 @@ a {
 	text-decoration: none;
 }
 
+.book-cover {
+	vertical-align:top;
+	display:table-cell;
+}
+
+.book-description {
+	vertical-align:top;
+	display:table-cell;
+}
 
 
 .myname {

@@ -225,7 +225,7 @@ a {
 	}
 	
 	.bio img {
-		width: 100%
+		width: 100%;
 		height: auto;
 		border: 0px;
 		padding-top: 0px;
@@ -299,6 +299,14 @@ a {
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
+	
+	.cv img {
+		width: 100%;
+		height: auto;
+		border: 0px;
+		padding-top: 0px;
+		padding-right:1.618em;
+	}	
 	
 	.span_2_of_2 {
 		width: 100%; 

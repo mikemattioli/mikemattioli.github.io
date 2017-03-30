@@ -335,6 +335,7 @@ a {
 
 	.book-cover {
 		width: 100%;
+		text-align: center;
 	}
 	
 	.book-description {
@@ -342,7 +343,7 @@ a {
 	}
 	
 	.book-cover img {
-		margin-right:0px; 
+		margin-right:0px;
 	}
 	
 	.cv {

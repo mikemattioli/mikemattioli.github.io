@@ -329,6 +329,14 @@ a {
 		font-size:1em;
 	}
 
+	.book-cover {
+		width: 100%;
+	}
+	
+	.book-description {
+		width: 100%;	
+	}
+	
 	.cv {
 		padding-top:1.618em;
 		font-size:1em;

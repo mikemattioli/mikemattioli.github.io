@@ -3,7 +3,7 @@
 body {
 	color: #333;
 	text-rendering: optimizeLegibility;
-	font-family: "skolar","Times New Roman",serif;
+	font-family: "Georgia","Times New Roman",serif;
 	font-feature-settings:"liga", "dlig";
 	font-feature-settings: "kern";
 	font-size:18px;
@@ -43,18 +43,34 @@ a {
 	display:table-cell;
 }
 
-
 .myname {
-	font-family:"adobe-caslon-pro",Georgia,serif;;
+	font-family:"Georgia",serif;;
 	clear: both;
 	margin-left: 13.5%;
 	margin-right: 7%;
 	font-weight:400;
-	font-size: 2.353em;
-	margin-top: 2.618em;
+	font-size: 3.153em;
+	margin-top: 1.618em;
 	margin-bottom: 0em;
 }
 
+.mytitle {
+	font-family:"Georgia",serif;;
+	font-style:italic;
+	clear: both;
+	margin-left: 13.5%;
+	margin-right: 7%;
+	font-weight:200;
+	font-size: 2.353em;
+	margin-bottom: 0em;
+}
+
+.menu {
+	margin-top: 2em;
+	clear: both;
+	font-size: 1em;
+	font-style: italic;
+}
 
 .bio {
 	font-size: 1em;
@@ -123,18 +139,19 @@ a {
 }
 
 .subtitle1 {
-	font-weight: 800;
-	font-size: 1em;
+	font-weight: 500;
+	font-size: 2em;
 	line-height: 1.618em;
-	margin-bottom: 1.618em;	/*margin-top: 1.353em;	*/
+	margin-bottom: 0.618em;	/*margin-top: 1.353em;	*/
+	margin-top:.518em;
 }
 
 .subtitles {
-	font-weight:800;
-	font-size: 1em;
+	font-weight:500;
+	font-size: 2em;
 	line-height: 1.618em;
-	margin-bottom: 1.618em;
-	padding-top: 1.618em;
+	margin-bottom: 0.618em;
+	padding-top: 0.618em;
 	border-top-style: dotted;
 	border-top-width: 1px;
 }
@@ -191,14 +208,14 @@ a {
 
 
 /*  Responsive Breakpoints for Computer Displays */
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1500px) {
 	body { 
 		font-size:120%; 
 	}
 }
 
 /*  Responsive Breakpoints for Computer Displays */
-@media only screen and (max-width: 1090px) {
+@media only screen and (max-width: 1300px) {
 	body { 
 		font-size:90%; 
 	}
@@ -242,11 +259,11 @@ a {
 	}
 
 	.subtitle1 {
-		font-size:1em;
+		font-size:1.4em;
 	}
 
 	.subtitles {
-		font-size:1em;
+		font-size:1.4em;
 	}
 
 	.cv {
@@ -269,10 +286,21 @@ a {
 		clear: both;
 		margin-left: 10%;
 		margin-right: 10%;
-		font-size: 1.618em;
+		font-size: 1.68em;
 		margin-top: 2.618em;
-		margin-bottom: 1em;
+		margin-bottom: .2em;
 	}
+
+	.mytitle {
+		clear: both;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: 1.68em;
+		/*margin-top: 0.618em;
+		margin-bottom: 1em;*/
+	}
+
+
 
 	.first-line {
 		padding-top:0em;
